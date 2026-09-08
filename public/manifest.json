@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Tabula Nova",
+  "version": "1.0.0",
+  "description": "A customizable new tab page with link pinning, background customization, AI search, and weather.",
+  "homepage_url": "https://github.com/your-repo/tabula-nova", 
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "https://api.openweathermap.org/*"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tabula-nova@example.com"
+    }
+  }
+}
